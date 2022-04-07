@@ -7,7 +7,7 @@ This project uses **DirectX9** to record and share what I personally studied.
 And this book makes a 2D game engine !  
 
 ## 📷 Reference Book  
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FProgramming-2D-Games-Charles-Kelly-ebook%2Fdp%2FB008NF849S&psig=AOvVaw07wgJ03t8e8-E41MsCwKOv&ust=1649378758993000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCNDx8ercgPcCFQAAAAAdAAAAABAD)    
+![](https://m.media-amazon.com/images/P/B008NF849S.01._SCLZZZZZZZ_SX500_.jpg)    
 
 ## 🗡️ Skills
 ### Platform & Languages
