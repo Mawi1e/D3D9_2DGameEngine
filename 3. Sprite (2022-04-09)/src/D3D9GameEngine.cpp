@@ -50,8 +50,8 @@ void D3D9GameEngine::build() {
 	LPDIRECT3DTEXTURE9 texture;
 	LoadTexture("characters.png", D3DCOLOR_ARGB(0, 255, 255, 255), width, height, texture);
 
-	LONG new_width = (LONG)(width / 23.0f);
-	LONG new_height = (LONG)(height / 4.0f);
+	LONG new_width = (LONG)(width / 23.0f) + 1;
+	LONG new_height = (LONG)(height / 4.0f) + 1;
 
 	spData.scale = 10.0f;
 	spData.x = (m_ScreenWidth - new_width * spData.scale) / 2.0f;
