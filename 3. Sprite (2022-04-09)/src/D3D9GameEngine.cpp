@@ -53,14 +53,14 @@ void D3D9GameEngine::build() {
 	LONG new_width = (LONG)(width / 23.0f) + 1;
 	LONG new_height = (LONG)(height / 4.0f) + 1;
 
-	spData.scale = 10.0f;
-	spData.x = (m_ScreenWidth - new_width * spData.scale) / 2.0f;
-	spData.y = (m_ScreenHeight - new_height * spData.scale) / 2.0f;
-	spData.width = width;
-	spData.height = height;
+	spData.scale = 5.0f;
+	spData.x = 0.0f;
+	spData.y = 0.0f;
+	spData.width = new_width;
+	spData.height = new_height;
 	spData.texture = texture;
-	spData.flipVertical = false;
 	spData.flipHorizontal = false;
+	spData.flipVertical = true;
 	spData.angle = 0.0f;
 	spData.rect = { 0, 0, new_width, new_height };
 }
